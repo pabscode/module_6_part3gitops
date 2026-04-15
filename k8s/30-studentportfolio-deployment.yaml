@@ -19,8 +19,8 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/pabscode/module_6_part3-studentportfolio:559b69f5b4648dc77e8beeb69913bd2a6fb85d49
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/pabscode/module_6_part3-studentportfolio:c14a2f53542d479c0ed6aeda2c6f0e91700f9ea3
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 80
